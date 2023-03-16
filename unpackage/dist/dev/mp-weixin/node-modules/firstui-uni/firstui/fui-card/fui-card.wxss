@@ -1,0 +1,114 @@
+
+.fui-card__wrap.data-v-097897fb {
+		overflow: hidden;
+
+		flex: 1;
+		box-sizing: border-box;
+}
+.fui-card__full.data-v-097897fb {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		border-radius: 0 !important;
+}
+.fui-card__full.data-v-097897fb::after {
+		border-radius: 0 !important;
+}
+.fui-card__border.data-v-097897fb {
+		position: relative;
+		box-shadow: none !important;
+}
+.fui-card__border-radius.data-v-097897fb {
+		border-radius: 16rpx !important;
+}
+.fui-card__border.data-v-097897fb::after {
+		content: ' ';
+		position: absolute;
+		height: 200%;
+		width: 200%;
+		border: 1px solid var(--fui-color-border, #EEEEEE);
+		transform-origin: 0 0;
+		-webkit-transform-origin: 0 0;
+		transform: scale(0.5);
+		left: 0;
+		top: 0;
+		border-radius: 32rpx;
+		box-sizing: border-box;
+		pointer-events: none;
+}
+.fui-card__header.data-v-097897fb {
+
+		width: 100%;
+		display: flex;
+		box-sizing: border-box;
+
+
+
+
+
+		align-items: center;
+		justify-content: space-between;
+		position: relative;
+		overflow: hidden;
+}
+.fui-card__header-left.data-v-097897fb {
+		white-space: nowrap;
+}
+.fui-card__header-line.data-v-097897fb {
+		position: relative;
+}
+.fui-card__header-line.data-v-097897fb::after {
+		content: '';
+		position: absolute;
+		border-bottom: 1px solid var(--fui-color-border, #EEEEEE);
+		transform: scaleY(0.5);
+		transform-origin: 0 100%;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		pointer-events: none;
+}
+.fui-card__footer-line.data-v-097897fb {
+		position: relative;
+}
+.fui-card__footer-line.data-v-097897fb::after {
+		content: '';
+		position: absolute;
+		border-top: 1px solid var(--fui-color-border, #EEEEEE);
+		transform: scaleY(0.5);
+		transform-origin: 0 100%;
+		top: 0;
+		right: 0;
+		left: 0;
+		pointer-events: none;
+}
+.fui-card__header-thumb.data-v-097897fb {
+		vertical-align: middle;
+		margin-right: 20rpx;
+}
+.fui-card__header-title.data-v-097897fb {
+		display: inline-block;
+		vertical-align: middle;
+		max-width: 380rpx;
+		overflow: hidden;
+
+		white-space: nowrap;
+		text-overflow: ellipsis;
+}
+.fui-card__header-right.data-v-097897fb {
+		text-align: right;
+		flex-shrink: 0;
+}
+.fui-card__body.data-v-097897fb {
+
+
+
+
+		box-sizing: border-box;
+}
+.fui-card__footer.data-v-097897fb {
+
+
+
+
+		box-sizing: border-box;
+}

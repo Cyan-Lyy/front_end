@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "fui-col": "../../node-modules/firstui-uni/firstui/fui-col/fui-col",
+    "fui-row": "../../node-modules/firstui-uni/firstui/fui-row/fui-row",
+    "fui-text": "../../node-modules/firstui-uni/firstui/fui-text/fui-text",
+    "fui-card": "../../node-modules/firstui-uni/firstui/fui-card/fui-card"
+  }
+}

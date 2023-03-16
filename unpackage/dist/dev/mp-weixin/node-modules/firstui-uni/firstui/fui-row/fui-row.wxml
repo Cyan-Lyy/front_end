@@ -1,0 +1,1 @@
+<view class="{{['fui-row__box', 'data-v-3deecf5e', a, b, c]}}" style="{{'margin-top:' + d + ';' + ('margin-bottom:' + e) + ';' + ('margin-left:' + f) + ';' + ('margin-right:' + g)}}"><slot></slot></view>

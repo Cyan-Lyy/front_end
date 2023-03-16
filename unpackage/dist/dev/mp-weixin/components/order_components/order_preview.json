@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "fui-icon": "../../node-modules/firstui-uni/firstui/fui-icon/fui-icon",
+    "fui-col": "../../node-modules/firstui-uni/firstui/fui-col/fui-col",
+    "fui-text": "../../node-modules/firstui-uni/firstui/fui-text/fui-text",
+    "fui-row": "../../node-modules/firstui-uni/firstui/fui-row/fui-row",
+    "fui-button": "../../node-modules/firstui-uni/firstui/fui-button/fui-button",
+    "fui-card": "../../node-modules/firstui-uni/firstui/fui-card/fui-card"
+  }
+}

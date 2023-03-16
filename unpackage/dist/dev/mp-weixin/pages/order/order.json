@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "订单",
+  "usingComponents": {
+    "van-dropdown-menu": "../../wxcomponents/vant/dist/dropdown-menu/index",
+    "van-dropdown-item": "../../wxcomponents/vant/dist/dropdown-item/index",
+    "order-preview": "../../components/order_components/order_preview",
+    "fui-button": "../../node-modules/firstui-uni/firstui/fui-button/fui-button",
+    "fui-empty": "../../node-modules/firstui-uni/firstui/fui-empty/fui-empty"
+  }
+}

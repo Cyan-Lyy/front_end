@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "fui-text": "../../node-modules/firstui-uni/firstui/fui-text/fui-text",
+    "fui-list-cell": "../../node-modules/firstui-uni/firstui/fui-list-cell/fui-list-cell",
+    "fui-list": "../../node-modules/firstui-uni/firstui/fui-list/fui-list",
+    "fui-col": "../../node-modules/firstui-uni/firstui/fui-col/fui-col",
+    "fui-row": "../../node-modules/firstui-uni/firstui/fui-row/fui-row"
+  }
+}
