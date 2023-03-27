@@ -3,11 +3,15 @@
     "pages/home/home",
     "pages/notification/notification",
     "pages/order/order",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/bookPlace/bookPlace",
+    "pages/orderDetail/orderDetail"
   ],
   "usingComponents": {
     "van-button": "/wxcomponents/vant/dist/button/index",
-    "van-progress": "/wxcomponents/vant/dist/progress/index"
+    "van-progress": "/wxcomponents/vant/dist/progress/index",
+    "van-toast": "/wxcomponents/vant/dist/toast/index",
+    "van-icon": "/wxcomponents/vant/dist/icon/index"
   },
   "window": {
     "navigationBarTextStyle": "black",

@@ -2,15 +2,15 @@
   "navigationBarTitleText": "我的",
   "enablePullDownRefresh": true,
   "usingComponents": {
-    "vip": "../../components/mine_components/vip",
-    "property": "../../components/mine_components/property",
-    "func-list": "../../components/mine_components/func_list",
     "fui-icon": "../../node-modules/firstui-uni/firstui/fui-icon/fui-icon",
     "fui-avatar": "../../node-modules/firstui-uni/firstui/fui-avatar/fui-avatar",
     "fui-col": "../../node-modules/firstui-uni/firstui/fui-col/fui-col",
     "fui-text": "../../node-modules/firstui-uni/firstui/fui-text/fui-text",
     "fui-row": "../../node-modules/firstui-uni/firstui/fui-row/fui-row",
     "fui-backdrop": "../../node-modules/firstui-uni/firstui/fui-backdrop/fui-backdrop",
-    "fui-button": "../../node-modules/firstui-uni/firstui/fui-button/fui-button"
+    "fui-button": "../../node-modules/firstui-uni/firstui/fui-button/fui-button",
+    "vip": "../../components/mine_components/vip",
+    "property": "../../components/mine_components/property",
+    "func-list": "../../components/mine_components/func_list"
   }
 }

@@ -32,22 +32,43 @@
 				"navigationBarTitleText": "我的",
 				"enablePullDownRefresh": true
 			}
-		}
-	],
-	"easycom": {
-			"autoscan": true,
-			"custom": {
-				"fui-(.*)": "firstui-uni/firstui/fui-$1/fui-$1.vue",
-				"tui-(.*)": "thorui-uni/lib/thorui/tui-$1/tui-$1.vue"
-			}
 		},
+		{
+			"path": "pages/bookPlace/bookPlace",
+			"style": {
+				"navigationBarTitleText": "预定场所",
+				"enablePullDownRefresh": false,
+				"usingComponents": {
+					"van-submit-bar": "/wxcomponents/vant/dist/submit-bar/index"
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/orderDetail/orderDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"fui-(.*)": "firstui-uni/firstui/fui-$1/fui-$1.vue",
+			"tui-(.*)": "thorui-uni/lib/thorui/tui-$1/tui-$1.vue"
+		}
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarBackgroundColor": "#87CEFA",
 		"backgroundColor": "#CECECE",
 		"usingComponents": {
 			"van-button": "/wxcomponents/vant/dist/button/index",
-			"van-progress": "/wxcomponents/vant/dist/progress/index"
+			"van-progress": "/wxcomponents/vant/dist/progress/index",
+			"van-toast": "/wxcomponents/vant/dist/toast/index",
+			"van-icon": "/wxcomponents/vant/dist/icon/index"
 		}
 	},
 	"uniIdRouter": {},

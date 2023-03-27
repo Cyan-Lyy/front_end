@@ -1,20 +1,17 @@
 <template>
 	<view>
-		
-		
+		<view class="" @click="bookPlace">
+			羽毛球预约
+		</view>
 	</view>
 </template>
 
-<script>
-	export default {
-		data() {
-			return {
-				
-			};
-		},
-		methods: {
-			
-		}
+<script setup>
+	
+	const bookPlace = () => {
+		uni.navigateTo({
+			url:"/pages/bookPlace/bookPlace"
+		})
 	}
 </script>
 

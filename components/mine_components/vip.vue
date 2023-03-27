@@ -6,7 +6,7 @@
 					<fui-card :src="vipIcon" :title="vipText" radius="45rpx">
 						<view style="width: 60%; margin-left: 20%; margin-top: 5%;">
 							<!-- 进度条 -->
-							<van-progress :percentage="50" stroke-width="3px" :show-pivot="false" color="#87CEFA"></van-progress>
+							<van-progress :percentage="percentage" stroke-width="3px" :show-pivot="false" color="#87CEFA"></van-progress>
 							<fui-text :text="progressText" :size="20" type="gray"></fui-text>
 						</view>
 						<view style="width: 600rpx; height: 700rpx;">
@@ -69,17 +69,21 @@
 	</view>
 </template>
 	
-<script>
-	export default {
-		name: "vip",
-		data() {
-			return {
-				vipIcon: "/static/icons/VIP.png",
-				vipText: "普通会员",
-				progressText: "成长值50/100",
-			}
-		}
-	}
+<script setup>
+	import {
+		ref,
+		reactive,
+		onMounted,
+		computed
+	} from "vue";
+	import {useStore} from 'vuex'
+	const store = useStore()
+	const vipIcon = "/static/icons/VIP.png"
+	const vipText = computed(() => store.state.user.userInfo.memberType)
+	const currentValue = computed(() => store.state.user.userInfo.growthValue)
+	const goalValue = computed(() => store.state.user.userInfo.goalValue)
+	const progressText = computed(() => "成长值" + (currentValue?.value ?? 0) + "/" + (goalValue?.value ?? 0))
+	const percentage = computed(() => (currentValue.value / goalValue.value) * 100)
 </script>
 	
 
