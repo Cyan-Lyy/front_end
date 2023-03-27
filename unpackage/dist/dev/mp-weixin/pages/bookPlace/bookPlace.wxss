@@ -1,0 +1,52 @@
+.container {
+  padding-bottom: 300rpx;
+}
+.container .time {
+  overflow-x: auto;
+  margin-top: 40rpx;
+  padding: 0 40rpx;
+}
+.container .time__item {
+  border: 1rpx solid #ccc;
+  border-radius: 15%;
+  box-shadow: 2rpx 1rpx 2rpx rgba(0, 0, 0, 0.2);
+  width: 120rpx;
+  height: 140rpx;
+  margin-right: 20rpx;
+  margin-bottom: 5rpx;
+}
+.container .time__item--date {
+  margin-top: 20rpx;
+}
+.container .time__item:last-child {
+  margin-right: 0;
+}
+.container .time .activeItem {
+  background: #87CEFA;
+  color: #fff;
+}
+.container .placeList {
+  margin-top: 40rpx;
+  padding: 0 40rpx;
+}
+.container .placeList__placeTimeList {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.container .placeList__placeTimeList--card {
+  font-size: 20rpx;
+  border-radius: 8%;
+  height: 60rpx;
+  border: 1px solid #ccc;
+  margin-right: 20rpx;
+  /* 每个元素右间距设置为20px */
+  margin-top: 20rpx;
+}
+.container .placeList__placeTimeList--card:nth-child(4n) {
+  margin-right: 0;
+}
+.container .placeList__placeTimeList .actived {
+  border: 1px solid #87CEFA;
+  background: #ff0000;
+}

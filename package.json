@@ -1,0 +1,28 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "firstui-uni": "^1.9.0",
+    "module": "^1.2.5",
+    "uni-read-pages": "^1.0.5",
+    "uni-simple-router": "^2.0.8-beta.4",
+    "vant": "^4.1.1",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cyan-Lyy/front_end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cyan-Lyy/front_end/issues"
+  },
+  "homepage": "https://github.com/Cyan-Lyy/front_end#readme"
+}

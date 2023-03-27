@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "预定场所",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "van-submit-bar": "../../wxcomponents/vant/dist/submit-bar/index"
+  }
+}

@@ -1,0 +1,10 @@
+"use strict";
+const route_routes = require("../../route/routes.js");
+require("../../common/vendor.js");
+require("../../api/orderApi.js");
+require("../../api/request.js");
+require("../../store/index.js");
+require("../../store/user.js");
+require("../../api/loginApi.js");
+require("../../utils/token.js");
+wx.createPage(route_routes.MiniProgramPage);
